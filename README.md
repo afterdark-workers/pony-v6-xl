@@ -1,6 +1,6 @@
 # Pony Diffusion V6 XL — RunPod Serverless worker
 
-A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **Pony Diffusion V6 XL** by PurpleSmartAI, an SDXL finetune for anime, cartoon, furry and pony art. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
+A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[Pony Diffusion V6 XL](https://civitai.com/models/257749?modelVersionId=290640)** by PurpleSmartAI, an SDXL finetune for anime, cartoon, furry and pony art. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
 
@@ -10,7 +10,7 @@ Models are baked into the image, so a cold start does not re-download anything.
 
 | File | Source | Size |
 |---|---|---|
-| `checkpoints/pony_diffusion_v6_xl.safetensors` | Civitai 257749 / version 290640 (fp16 pruned) | 6.8 GB |
+| `checkpoints/pony_diffusion_v6_xl.safetensors` | [Civitai 257749 / version 290640](https://civitai.com/models/257749?modelVersionId=290640) (fp16 pruned) | 6.8 GB |
 
 Just the model as its creator released it — no LoRAs, no extra nodes, no upscalers. The VAE is built into the checkpoint. The file is checked by SHA-256 at build time. SDXL runs on the ComfyUI of the base image, so nothing else is installed.
 
