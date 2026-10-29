@@ -1,5 +1,7 @@
 # Pony Diffusion V6 XL — RunPod Serverless worker
 
+> 🔞 **Adult (18+) · NSFW** — part of afterdark-workers, workers for uncensored adult image and video models.
+
 A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[Pony Diffusion V6 XL](https://civitai.com/models/257749?modelVersionId=290640)** by PurpleSmartAI, an SDXL finetune for anime, cartoon, furry and pony art. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
